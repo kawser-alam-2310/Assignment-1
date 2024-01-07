@@ -15,22 +15,53 @@ body {
     width: 1320px;
     height: 600px;
 }
+
 .banner p {
     margin-top: 177px;
     color: #fff;
     font-size: 32px;
     text-align: center;
 }
+
 .banner h1 {
     font-size: 72px;
     color: #fff;
     margin: 0;
     text-align: center;
 }
+
 .banner-text {
     position: absolute;
     border-radius: 16px;
     width: 1320px;
     height: 600px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+/* All Categories Section Style */
+.categories-sec {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.categories-sec h1 {
+    color: #f00;
+    font-weight: 700;
+    font-size: 88px;
+    margin: 48px 0 0;
+}
+
+#holiday {
+    font-size: 24px;
+    font-weight: 500;
+    color: #f00;
+}
+
+#title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    margin: 0 0 48px;
 }
