@@ -1,6 +1,7 @@
 body {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: 'Inter', sans-serif;
 }
 
 .banner {
@@ -93,7 +94,7 @@ body {
     font-weight: 900;
 }
 
-#discription {
+#description {
     font-size: 18px;
     font-weight: 400;
 }
@@ -101,4 +102,52 @@ body {
 #button {
     font-size: 20px;
     font-weight: 700;
+}
+
+/* Best offer Section Style */
+.best-offer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.best-offer-left-text h2 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.best-offer-left-text h3 {
+    color: #070211;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.best-offer-left-text p {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    margin: 20px 0 0;
+}
+
+.best-offer-mid-img {
+    padding: 50px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    margin-right: 118px;
+    margin-left: 70px;
+}
+
+.best-offer-right-text h1 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.best-offer-right-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
 }
