@@ -202,12 +202,44 @@ body {
     top: -433px;
 }
 
-.holidays-sale-img2-big{
+.holidays-sale-img2-big {
     position: relative;
 }
 
-.holidays-sale-main-img2-small{
+.holidays-sale-main-img2-small {
     position: absolute;
     top: 70px;
     left: -155px;
+}
+
+/* Awesome Portfolio Section Style */
+.awesome-portfolio-sec {
+    margin: 0 auto 120px;
+    width: 1320px;
+}
+
+.awesome-portfolio-text h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.awesome-portfolio-text h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.awesome-portfolio-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    margin: 22px 0 48px;
+}
+
+.awesome-portfolio-images {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 24px;
 }
