@@ -276,6 +276,15 @@ body {
     gap: 24px;
 }
 
+.img{
+    transition: all 0.3s;
+}
+.img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
 /* Subscribe Section  */
 .subscribe-section {
     margin: 50px 140px 120px;
